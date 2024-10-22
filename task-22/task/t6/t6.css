@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 200px;
+    height: 100px;
+    border: 2px solid;
+    box-shadow: 10px 10px black;
+
+    
+}
+@media  screen and (width < 600px) {
+    .container{
+        box-shadow: none;
+    }
+}
+/* @media screen and (width >= 600px){
+    .container{
+        box-shadow: 20px 20px yellow;
+    }
+} */
